@@ -1,0 +1,36 @@
+<testsuite failures="0" name="src/test/java/features/getApi.feature" skipped="0" tests="2" time="2.037278">
+  <testcase classname="src.test.java.features.getApi" name="get user details" time="0.951118">
+    <system-out>Given url baseUrl + '/public/v1/users' .................................... passed
+And path '30' ............................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* def jsonResponse = response ............................................. passed
+* def actName = jsonResponse.data.name .................................... passed
+* def actId = jsonResponse.data.id ........................................ passed
+* def actEmail = jsonResponse.data.email .................................. passed
+* print actName ........................................................... passed
+* match actName == 'Chandrakala Mehra' .................................... passed
+* match actId == 30 ....................................................... passed
+* match actEmail == 'mehra_chandrakala@torphy-kuphal.name' ................ passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.getApi" name="get user details - user not found" time="1.08616">
+    <system-out>Given url baseUrl + '/public/v1/users' .................................... passed
+And path '30' ............................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* def jsonResponse = response ............................................. passed
+* def actName = jsonResponse.data.name .................................... passed
+* def actId = jsonResponse.data.id ........................................ passed
+* def actEmail = jsonResponse.data.email .................................. passed
+* print actName ........................................................... passed
+* match actName == 'Chandrakala Mehra' .................................... passed
+* match actId == 30 ....................................................... passed
+* match actEmail == 'mehra_chandrakala@torphy-kuphal.name' ................ passed
+Given url baseUrl + '/public/v1/users' .................................... passed
+And path '1' .............................................................. passed
+When method GET ........................................................... passed
+Then status 404 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,356 @@
+19:57:42.044 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+19:57:42.157 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+19:57:42.499 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/30
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+
+19:57:43.678 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1175.81
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 7782d9cedb1c222c-ORD
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 12 Dec 2022 01:57:43 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FpOybj%2FKSu0Xmrz%2FjP9L7rn%2FR10xhVZtla3NzpdljtLf8dF3MYK5mgupxulC17wxacuuBGyFtNtSlsfg9TtPgrHlzCLQq7ZLLngTHPHk%2FmuMsiz20Y2CnJXYXxgl%2BLs%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < etag: W/"7090e3b52255ab249c8319df521bedfe"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: fce4c4e5-6219-4130-8e46-fe87dc97c855
+1 < x-runtime: 0.018657
+1 < x-xss-protection: 0
+{"meta":null,"data":{"id":30,"name":"Chandrakala Mehra","email":"mehra_chandrakala@torphy-kuphal.name","gender":"female","status":"inactive"}}
+
+19:57:43.757 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/getApi.feature
+20:10:14.192 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:10:14.292 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+20:10:14.592 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/30
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+
+20:10:15.794 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1199.13
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 7782ec2b4feb6387-ORD
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 12 Dec 2022 02:10:15 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nyTfe0xjgntplAeE%2FRJYtOEc8VzbK%2BVJR421ivK%2B7esnXEOxkJuJPUR9HZ6IQi39LD%2Fodrp1LjqRfcofipAyWvWabifgubowATjIq%2FVH4K4JLwr2gKgRgM0M09Kd4S4%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < etag: W/"7090e3b52255ab249c8319df521bedfe"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 9668410c-30b6-40dc-8f31-b053184b6846
+1 < x-runtime: 0.009704
+1 < x-xss-protection: 0
+{"meta":null,"data":{"id":30,"name":"Chandrakala Mehra","email":"mehra_chandrakala@torphy-kuphal.name","gender":"female","status":"inactive"}}
+
+20:10:15.803 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+20:10:15.806 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+
+20:10:16.910 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1102.62
+1 < 404
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 7782ec320cd2e264-ORD
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 12 Dec 2022 02:10:16 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Z9LHpqKFrh7Un%2F8CWwY5AYM86RPmmLrxQUvQfIyPro9VJWRvR5SQk%2BiDDWZgHMv3zgsTLgr5riJuTZ%2BXjCjieqMV2YcjdCbBc4cDeGG%2F70EV%2B5aOf1U6hMo%2BLT1squE%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 5c595491-33ed-42d0-a06d-6825e6ed3e68
+1 < x-runtime: 0.010283
+1 < x-xss-protection: 0
+{"meta":null,"data":{"message":"Resource not found"}}
+
+20:10:16.955 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/getApi.feature
+20:14:19.424 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:14:19.534 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+20:14:19.874 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/30
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+
+20:14:21.043 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1164.36
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 7782f2282a3e2d58-ORD
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 12 Dec 2022 02:14:21 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Rl9T8Ep%2By8BB0Kigad7jl6Gw54MOVV%2BOooiuBt0j%2B3DZ1Vy17%2FGRwaRmmMWmilqzVgLNdJhcb5Ws5TXT8oBYwZ8Z6WHayADO9kLakXJI%2B6UPd2sL2eszHec13t9ds6M%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < etag: W/"7090e3b52255ab249c8319df521bedfe"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 77e78243-bf3d-443a-80c3-06b03fbb4c4a
+1 < x-runtime: 0.015309
+1 < x-xss-protection: 0
+{"meta":null,"data":{"id":30,"name":"Chandrakala Mehra","email":"mehra_chandrakala@torphy-kuphal.name","gender":"female","status":"inactive"}}
+
+20:14:21.047 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "data": {
+    "gender": "female",
+    "name": "Chandrakala Mehra",
+    "id": 30,
+    "email": "mehra_chandrakala@torphy-kuphal.name",
+    "status": "inactive"
+  },
+  "meta": null
+}
+
+20:14:21.053 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] Chandrakala Mehra
+20:14:21.058 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+20:14:21.062 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+
+20:14:22.056 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 992.98
+1 < 404
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 7782f22eedf52919-ORD
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 12 Dec 2022 02:14:22 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=D89n3w088u3rBrbRKd1qX0Uhk27uF%2FBiAvvn9lV5Vf4gJbuZs4V87N3dPyxa%2FFZiQSh14iC571tgP002Uy8ypHlMd6dzHxMDMLJ88R2wUbNcloOqAPNyqA%2BSJltqxXc%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 826c910d-62ca-43e2-8fc6-2e6358f9d897
+1 < x-runtime: 0.009864
+1 < x-xss-protection: 0
+{"meta":null,"data":{"message":"Resource not found"}}
+
+20:14:22.105 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/getApi.feature
+20:15:43.461 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:15:43.470 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^get user details$
+20:15:43.560 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+20:15:43.865 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/30
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+
+20:15:44.499 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 631.10
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 7782f4350db6e133-ORD
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 12 Dec 2022 02:15:44 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XPO58qug2AB4hm1jH5CQiETzIDEga9wBNFwTZp9v3iUb35x6CA2FRTVw7Cfu3F7uFVqeOhaoPZ26o67zILglLTo3NXPD6wYi8XhFJ2P3vWKIIZhUJuhdKz%2BPy8O4zBo%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < etag: W/"7090e3b52255ab249c8319df521bedfe"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 15b68dd9-a1bb-474c-84e1-2dc3bd61ed7a
+1 < x-runtime: 0.017365
+1 < x-xss-protection: 0
+{"meta":null,"data":{"id":30,"name":"Chandrakala Mehra","email":"mehra_chandrakala@torphy-kuphal.name","gender":"female","status":"inactive"}}
+
+20:15:44.502 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "data": {
+    "gender": "female",
+    "name": "Chandrakala Mehra",
+    "id": 30,
+    "email": "mehra_chandrakala@torphy-kuphal.name",
+    "status": "inactive"
+  },
+  "meta": null
+}
+
+20:15:44.508 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] Chandrakala Mehra
+20:15:44.546 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/getApi.feature
+20:18:25.042 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:18:25.053 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^get user details$
+20:18:25.142 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+20:18:25.426 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/30
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+
+20:18:26.700 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1271.83
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 7782f82719390364-ORD
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 12 Dec 2022 02:18:26 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8DSZKzirdGCNFHFroRcEH7yPl31jV9J9TeW2NUY0iAHHSvxam%2BmbVoI8cfrQpOmcUQGU%2B1%2FTainTxgL6BwipVAq19SXz5USpaP1zHJyxUoOOOcQH4S9Ke1B0fBFoYGY%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < etag: W/"7090e3b52255ab249c8319df521bedfe"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: b1a26ae1-af40-4bf0-99a4-8d5571116f5b
+1 < x-runtime: 0.010145
+1 < x-xss-protection: 0
+{"meta":null,"data":{"id":30,"name":"Chandrakala Mehra","email":"mehra_chandrakala@torphy-kuphal.name","gender":"female","status":"inactive"}}
+
+20:18:26.703 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "data": {
+    "gender": "female",
+    "name": "Chandrakala Mehra",
+    "id": 30,
+    "email": "mehra_chandrakala@torphy-kuphal.name",
+    "status": "inactive"
+  },
+  "meta": null
+}
+
+20:18:26.713 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] Chandrakala Mehra
+20:18:26.754 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/getApi.feature
+20:34:57.769 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:34:57.877 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+20:34:58.223 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/30
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+
+20:34:58.876 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 649.62
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 77831063f82c1ce2-ORD
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 12 Dec 2022 02:34:58 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=m6Y4P8Fu2Z1Zkm2pRCU%2BfdsEY5KWPjgEV%2BluIw5UT1GyrlPtWUKqa83xEJw9uX0iIThmFS6WnNe7caf93auj8uBLnAfRN24EPuPIWymgHWsZOEfoRESuRZQvIqvg7vY%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < etag: W/"7090e3b52255ab249c8319df521bedfe"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 673120a7-76a9-463a-b191-6193d809b8c9
+1 < x-runtime: 0.008908
+1 < x-xss-protection: 0
+{"meta":null,"data":{"id":30,"name":"Chandrakala Mehra","email":"mehra_chandrakala@torphy-kuphal.name","gender":"female","status":"inactive"}}
+
+20:34:58.880 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "data": {
+    "gender": "female",
+    "name": "Chandrakala Mehra",
+    "id": 30,
+    "email": "mehra_chandrakala@torphy-kuphal.name",
+    "status": "inactive"
+  },
+  "meta": null
+}
+
+20:34:58.892 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] Chandrakala Mehra
+20:34:58.902 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+20:34:58.905 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+
+20:34:59.988 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1082.30
+1 < 404
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 778310675a11e27f-ORD
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 12 Dec 2022 02:34:59 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tn2sw3t5qm1z6kV5RaFdHptvhSf6zsTyC%2BLTclGCD7KlJm7D0nJjb9UMnOYYAMW4BENt9bhkBmvSPDzs6AeewLS%2BaQHOtBpXYdE7NreT5uVzQESGUO4aHaYFt%2F0oh%2BU%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: b3f1ef04-78a4-4b09-b27d-5f7e7d6be607
+1 < x-runtime: 0.008753
+1 < x-xss-protection: 0
+{"meta":null,"data":{"message":"Resource not found"}}
+
+20:35:00.042 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/getApi.feature

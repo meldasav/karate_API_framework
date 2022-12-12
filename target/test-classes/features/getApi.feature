@@ -5,7 +5,6 @@ Feature: Get Api feature
     And path '30'
     When method GET
     Then status 200
-
     * print response
     * def jsonResponse = response
     * def actName = jsonResponse.data.name
