@@ -13,7 +13,7 @@
     <div id="visualization"></div>
     <script>
 var groups = new vis.DataSet([{"id":1,"content":"ForkJoinPool-1-worker-1"}]);
-var items = new vis.DataSet([{"id":1,"group":1,"content":"getApi[1:3]","start":510,"end":1492,"title":"getApi[1:3] 18:00:00.510-18:00:01.492 get user details"},{"id":2,"group":1,"content":"getApi[2:18]","start":1497,"end":2584,"title":"getApi[2:18] 18:00:01.497-18:00:02.584 get user details - user not found"}]);
+var items = new vis.DataSet([{"id":1,"group":1,"content":"postapi[1:14]","start":499,"end":1988,"title":"postapi[1:14] 18:00:00.499-18:00:01.988 Create a user with the given data"}]);
 var container = document.getElementById('visualization');
 var timeline = new vis.Timeline(container);
 timeline.setOptions({ groupOrder: 'content' });

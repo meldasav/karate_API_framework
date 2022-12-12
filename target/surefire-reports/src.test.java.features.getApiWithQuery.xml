@@ -1,0 +1,9 @@
+<testsuite failures="0" name="src/test/java/features/getApiWithQuery.feature" skipped="0" tests="1" time="1.486205">
+  <testcase classname="src.test.java.features.getApiWithQuery" name="get all active users" time="1.486205">
+    <system-out>* def query = { status : 'active'} ........................................ passed
+Given url baseUrl + '/public/v1/users' .................................... passed
+And params query .......................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

@@ -6,7 +6,8 @@ function fn() {
   }
   var config = {
     env: env,
-    baseUrl: 'https://gorest.co.in'
+    baseUrl: 'https://gorest.co.in',
+    tokenId: '7a15bdfc31b77862fdc76129f3734bbf34fa954e633230514cb49038bc2cf797'
   }
   if (env == 'dev') {
     // customize
