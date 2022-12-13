@@ -782,3 +782,300 @@ f`��S����vn��D˹�Y�V0��qϰ�QH�%W3��
 {"meta":null,"data":{"id":7520,"name":"tommmm","email":"tom@gmail.commmm","gender":"male","status":"active"}}
 
 14:33:26.968 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/postapi.feature
+15:08:40.263 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+15:08:40.385 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+15:08:40.477 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] lMqxgScyxU
+15:08:40.486 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "name": "tommmm",
+  "gender": "male",
+  "status": "active",
+  "email": "lMqxgScyxU@gmail.com"
+}
+
+15:08:40.775 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 7a15bdfc31b77862fdc76129f3734bbf34fa954e633230514cb49038bc2cf797
+1 > Connection: Keep-Alive
+1 > Content-Length: 82
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+{"name":"tommmm","gender":"male","status":"active","email":"lMqxgScyxU@gmail.com"}
+
+15:08:41.542 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 765.35
+1 < 201
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 77896fcd2c652a12-ORD
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 12 Dec 2022 21:08:41 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KTCAoa8uO7gAKPJ9VEue1wObMc9XFJBjrXsj5HbIe3SWZpT5rBPqBDDf3Hwr0jk9zrXdgZufcoj760oI5HBoa9GcX79nftHwYH%2FMjm%2FUY2cnoz3tyid0Rm%2FPmAjc%2BAo%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < etag: W/"21b8c1f953f1d850325bdbb4ffd7dd48"
+1 < location: https://gorest.co.in/public/v1/users/7613
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 4e6364cd-3187-4f35-9f21-a5495669941d
+1 < x-runtime: 0.057225
+1 < x-xss-protection: 0
+{"meta":null,"data":{"id":7613,"name":"tommmm","email":"lMqxgScyxU@gmail.com","gender":"male","status":"active"}}
+
+15:08:41.594 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/random.feature
+15:13:11.194 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+15:13:11.289 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+15:13:11.372 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] SPlQMEgOij
+15:13:11.382 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "name": "tommmm",
+  "gender": "male",
+  "status": "active",
+  "email": "SPlQMEgOij@gmail.com"
+}
+
+15:13:11.633 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 7a15bdfc31b77862fdc76129f3734bbf34fa954e633230514cb49038bc2cf797
+1 > Connection: Keep-Alive
+1 > Content-Length: 82
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+{"name":"tommmm","gender":"male","status":"active","email":"SPlQMEgOij@gmail.com"}
+
+15:13:12.391 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 757.55
+1 < 201
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 778976698dc18117-ORD
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 12 Dec 2022 21:13:12 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vqBbASyhdQ%2Fu4nJIUktrmPNXrvWAXfwBP1%2FJZh52XSa47AMR0NZBFAdYNFXSOTqAq1BYg6p7CEgo1blhI%2FHuf1WUWdKLZjZ4gTLLWaYZQa0p3EHhNUv7vqopkSIWtyw%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < etag: W/"96e285ef732b73bbfc060aea437d93d5"
+1 < location: https://gorest.co.in/public/v1/users/7646
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: e3793cee-6fb0-422f-99bb-21a5f6183087
+1 < x-runtime: 0.123900
+1 < x-xss-protection: 0
+{"meta":null,"data":{"id":7646,"name":"tommmm","email":"SPlQMEgOij@gmail.com","gender":"male","status":"active"}}
+
+15:13:12.443 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/random.feature
+15:17:03.557 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+15:17:03.666 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+15:17:03.760 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] oqGRvItLXy
+15:17:03.771 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "name": "tommmm",
+  "gender": "male",
+  "status": "active",
+  "email": "oqGRvItLXy@gmail.com"
+}
+
+15:17:04.053 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 7a15bdfc31b77862fdc76129f3734bbf34fa954e633230514cb49038bc2cf797
+1 > Connection: Keep-Alive
+1 > Content-Length: 82
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+{"name":"tommmm","gender":"male","status":"active","email":"oqGRvItLXy@gmail.com"}
+
+15:17:05.316 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1261.33
+1 < 201
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 77897c169a4d226d-ORD
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 12 Dec 2022 21:17:05 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Nz4Yp8fri5lUo0pI161NtDD4ZBHKb5BXxVXc%2Bu1FjTFnDxCpgum5YSMm5rAAijVxmElWwavwJU0nZiX5fH6teX7ejpx9QH3cNt9nZCPDyd7k5IIG53GBTfbwbqiZqPI%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < etag: W/"cb7ea3865864de6ad08d8f7251e0442b"
+1 < location: https://gorest.co.in/public/v1/users/7660
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: ee98bb79-d1ff-4e37-a6e8-ea3745dbe47a
+1 < x-runtime: 0.059123
+1 < x-xss-protection: 0
+{"meta":null,"data":{"id":7660,"name":"tommmm","email":"oqGRvItLXy@gmail.com","gender":"male","status":"active"}}
+
+15:17:05.375 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/random.feature
+15:18:02.266 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+15:18:02.361 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+15:18:02.441 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] dLoXEDutan
+15:18:02.450 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "name": "tommmm",
+  "gender": "male",
+  "status": "active",
+  "email": "dLoXEDutan@gmail.com"
+}
+
+15:18:02.682 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 7a15bdfc31b77862fdc76129f3734bbf34fa954e633230514cb49038bc2cf797
+1 > Connection: Keep-Alive
+1 > Content-Length: 82
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+{"name":"tommmm","gender":"male","status":"active","email":"dLoXEDutan@gmail.com"}
+
+15:18:03.926 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1243.08
+1 < 201
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 77897d849a712bef-ORD
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 12 Dec 2022 21:18:03 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oJ%2F6W4PGsY51U7%2B%2BwsZnmfjIqNE%2BpVUFdAyCcJWUMksi4jqDPmicWHjLCnVPgKBW1jBMI4wl1yIDfx3o2daVyXHZ7l88Dg2%2BcYXcjGAuIH9cPz7sQHevevHzrQ4%2FFMk%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < etag: W/"cb6c75f0ebc6220f31a090bff981ec9b"
+1 < location: https://gorest.co.in/public/v1/users/7661
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 7d83f3cd-2ec4-4e31-a32c-5852baed1921
+1 < x-runtime: 0.074340
+1 < x-xss-protection: 0
+{"meta":null,"data":{"id":7661,"name":"tommmm","email":"dLoXEDutan@gmail.com","gender":"male","status":"active"}}
+
+15:18:03.973 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/random.feature
+15:34:34.452 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+15:34:34.546 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+15:34:34.874 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 7a15bdfc31b77862fdc76129f3734bbf34fa954e633230514cb49038bc2cf797
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+{"name":"tommmm","email":"tom@gmail.commmm","gender":"male","status":"active"}
+
+15:34:36.194 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1317.03
+1 < 422
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 778995be39a2c534-ORD
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 12 Dec 2022 21:34:36 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EPMdv4Uc6ktSN33JYha5sxFzaKhMqfwsVirGpq1qRUL7kIRSr6VSCHfXXxFdOrKWZ5ss4msfyMq4u%2FfCoaO4DdBoXNYFT8z%2FJA9yQgUalHj2g1U9lLBZqxpgzAhdqGk%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: b9e822e1-1ded-4dba-93e1-ed6f40124f25
+1 < x-runtime: 0.078808
+1 < x-xss-protection: 0
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+
+15:34:36.195 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - status code was: 422, expected: 201, response time: 1317, url: https://gorest.co.in/public/v1/users, response: {"data":[{"field":"email","message":"has already been taken"}],"meta":null}
+15:34:36.234 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/postjson.feature
+15:36:27.292 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+15:36:27.404 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+15:36:27.500 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] DLJKlQuQQD
+15:36:27.508 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "name": "tommmm",
+  "gender": "male",
+  "status": "active",
+  "email": "DLJKlQuQQD@gmail.com"
+}
+
+15:36:27.797 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 7a15bdfc31b77862fdc76129f3734bbf34fa954e633230514cb49038bc2cf797
+1 > Connection: Keep-Alive
+1 > Content-Length: 82
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+{"name":"tommmm","gender":"male","status":"active","email":"DLJKlQuQQD@gmail.com"}
+
+15:36:29.144 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1345.42
+1 < 201
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 7789987ffaf2e1cf-ORD
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 12 Dec 2022 21:36:29 GMT
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6bZg0K5bP%2BB8fQTUBCCeKTtNamLRbBUfoCyf2MOXRC7UKLfnHW%2Ff7pzd64bc6TTKhzI7R%2Buz%2BIgmzkPKhfmbvYcoopNiM%2FC0d8Dq8FGbIWqjFDioCNkO4DhtqZpPSOQ%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < etag: W/"9bd8187386a2b2181427171ace8e0254"
+1 < location: https://gorest.co.in/public/v1/users/7680
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 877241e5-01ad-49d8-a2cb-d65bb1cd2166
+1 < x-runtime: 0.112500
+1 < x-xss-protection: 0
+{"meta":null,"data":{"id":7680,"name":"tommmm","email":"DLJKlQuQQD@gmail.com","gender":"male","status":"active"}}
+
+15:36:29.200 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/postjson.feature
