@@ -1,9 +1,0 @@
-<testsuite failures="0" name="src/test/java/features/headers.feature" skipped="0" tests="1" time="1.47536">
-  <testcase classname="src.test.java.features.headers" name="pass the user request with headers" time="1.47536">
-    <system-out>* configure headers = {Connection : 'keep-alive' , Accept-Encoding : 'gzip, deflate, br'} . passed
-Given url baseUrl + '/public/v1/users?status=active' ...................... passed
-When method GET ........................................................... passed
-Then status 200 ........................................................... passed
-* print response .......................................................... passed</system-out>
-  </testcase>
-</testsuite>

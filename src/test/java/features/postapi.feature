@@ -5,7 +5,7 @@ Feature: Create user using post api
     """
      {
     "name":"tommmm",
-    "email":"tom@gmail.commmm",
+    "email":"tom@gmaill.commmm",
     "gender":"male",
     "status":"active"
      }

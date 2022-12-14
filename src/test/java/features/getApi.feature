@@ -12,9 +12,9 @@ Feature: Get Api feature
     * def actId = jsonResponse.data.id
     * def actEmail = jsonResponse.data.email
     * print actName
-    * match actName == 'Chandrakala Mehra'
-    * match actId == 30
-    * match actEmail == 'mehra_chandrakala@torphy-kuphal.name'
+    * match actName == '#present'
+    * match actId == '#present'
+    * match actEmail == '#present'
 
   Scenario: get user details - user not found
     Given url baseUrl + '/public/v1/users'
